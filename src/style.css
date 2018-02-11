@@ -482,3 +482,498 @@ body
     width: 25%;
   }
 }
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);body {
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 14px
+}
+
+.displayFlex {
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.backBtn,.displayFlex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.backBtn {
+    color: #3e3785;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    cursor: pointer
+}
+
+.resendOtpText {
+    padding-top: 10px
+}
+
+.backBtn i {
+    padding-right: 5px;
+    font-size: 20px
+}
+
+.backBtn a {
+    color: #888!important
+}
+
+.backBtn a,.backBtn a:hover {
+    text-decoration: none
+}
+
+.go_back {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 20px;
+    color: #ffca27;
+}
+.go_back:hover {
+    color: #eab41c
+}
+.hide {
+    display: none!important
+}
+
+.textDecoration {
+    text-decoration: none
+}
+
+.textDecoration:hover {
+    text-decoration: underline
+}
+
+.countryInput {
+    width: 28%!important;
+    display: inline-block;
+    margin-right: 2%;
+    position: relative
+}
+
+.countryInput input {
+    width: calc(100% - 10px)!important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important
+}
+
+.countryInput i {
+    position: absolute;
+    bottom: 15px;
+    right: 7px;
+    font-size: 18px
+}
+
+.mobileInput {
+    width: 70%!important;
+    display: inline-block
+}
+
+.mobileInput input {
+    width: calc(100% - 10px)!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important
+}
+
+.DarkLandingPageWrapper {
+    background-color: #020b1c;
+    color: #fff
+}
+
+.LightLandingPageWrapper {
+    background-color: #fafcfd;
+    color: #1d1b35
+}
+
+.landingPageInnerWidth {
+    width: 440px;
+    text-align: center
+}
+
+.DarkLandingPageInnerWrapper {
+    background-color: #041941
+}
+
+.DarkLandingPageInnerWrapper,.LightLandingPageInnerWrapper {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+}
+
+.LightLandingPageInnerWrapper {
+    background-color: #fff
+}
+
+.landingPageWrapper {
+    width: calc(100vw - 80px);
+    min-height: calc(100vh - 80px);
+    padding: 40px
+}
+
+.landingPageInnerWrapper {
+    border-radius: 10px;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+    margin: 0 auto
+}
+
+.headerDescription {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    color: #bac2e6;
+    text-transform: uppercase;
+    padding: 10px 0
+}
+
+.darkHeaderDescription {
+    color: #b8bcdc
+}
+
+.lightHeaderDescription {
+    color: #01031e
+}
+
+.darkHeaderDescription,.lightHeaderDescription {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 0
+}
+
+.addPaddTop {
+    padding-top: 20px!important
+}
+
+.dividerLine {
+    background-color: #464e87;
+    display: block;
+    height: 1px;
+    width: 90px
+}
+
+.descriptionText {
+    color: #8074d7;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.smallDescriptionText {
+    color: #5c5a83;
+    font-family: Open Sans;
+    font-size: 13px;
+    line-height: 18px
+}
+
+.signUpWrapper {
+    width: 380px;
+    margin: 0 auto
+}
+
+.DarkFormGroupWrapper,.LightFormGroupWrapper {
+    width: 380px;
+    padding-top: 20px
+}
+
+.DarkFormGroupWrapper .formInput,.LightFormGroupWrapper .formInput {
+    padding-bottom: 20px
+}
+
+.DarkFormGroupWrapper .formInput input {
+    width: 100%!important;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 44px;
+    border-radius: 5px;
+    border: 3px ridge #346bcb!important;
+    padding: 0;
+    border: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: #6fa0f6!important;
+    color: #fff!important
+}
+
+.formLabel {
+    text-align: left;
+    padding-bottom: 10px;
+    display: block;
+    color: #9fa3d3;
+    font-size: 14px;
+    font-weight: 600
+}
+
+.DarkFormGroupWrapper .formInput input:focus {
+    border: 1px solid #21d268!important;
+    outline: none
+}
+
+.LightFormGroupWrapper .formInput input {
+    width: 100%!important;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 44px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    border: 2px solid #f5f9fa!important;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: #c1effa
+}
+
+.LightFormGroupWrapper .formInput input:focus {
+    border: 2px solid #00d463!important;
+    outline: none
+}
+
+.linkDescription {
+    color: #7300d4
+}
+
+.linkDescription a {
+    color: #3836e6;
+    text-decoration: none
+}
+
+.linkDescription a:hover {
+    text-decoration: underline
+}
+
+.forgotPassword {
+    text-align: left;
+    padding: 15px 0;
+    padding-top: 0;
+    cursor: pointer
+}
+
+.commonBtn {
+    text-align: center
+}
+
+.signInbtn a button {
+    background-color: #3338c9;
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px ridge #00ffd4;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #fff;
+	box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.75);
+}
+
+.signInbtn a button:active {
+	box-shadow: none;
+}
+
+.signInbtn a button:hover {
+    background-color: #1015af
+}
+
+.signInbtn a button:focus {
+    outline: none
+}
+
+.darkCommonBtn a button {
+    color: #fff;
+    background-color: #1015af;
+    border: 1px ridge #00ffd4;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.75);
+}
+
+.darkCommonBtn a button:hover {
+    background-color: #00ffd4;
+    box-shadow: none;
+    color: #1015af;
+}
+
+.lightCommonBtn a button {
+    color: #474747;
+    background-color: #fff;
+    border: 1.5px solid #0e00d4
+}
+
+.lightCommonBtn a button:hover {
+    background-color: #f8f8f8
+}
+
+.commonBtn a button {
+    height: 54px;
+    width: 380px;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.commonBtn a {
+    text-decoration: none
+}
+
+.btnIconWidth {
+    width: 64px;
+    text-align: center
+}
+
+.commonBtn a button span i {
+    padding: 0 20px;
+    font-size: 20px
+}
+
+.commonBtn button:focus {
+    outline: none
+}
+
+.socialLoginWrapper {
+    padding-top: 20px
+}
+
+.socialLoginIconWrapper {
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.socialLoginIcon {
+    display: inline-block;
+    width: 18%;
+    text-align: center
+}
+
+.socialLoginIcon a img {
+    width: 40px
+}
+
+.socialLoginIcon a img:hover {
+    opacity: .6
+}
+
+.DarkSocialLoginIcon a i,.LightSocialLoginIcon a i {
+    color: #29283b
+}
+
+.socialLoginIcon a i {
+    font-size: 30px;
+    cursor: pointer
+}
+
+.socialLoginIcon a i:hover {
+    color: #7371a8
+}
+
+.img-responsive[alt^="Facebook"] {
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.75);
+    border-radius: 25px;
+}
+
+.img-responsive[alt^="Facebook"]:active {
+	box-shadow: none;
+    border-radius: none;
+}
+
+.errorText {
+    color: red;
+    padding-top: 10px
+}
+
+.viewcontainer {
+    height: 70vh;
+    width: 100vw;
+    display: table
+}
+
+.centerContent {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.message {
+    padding: 50px 20%
+}
+
+.message h1 {
+    font-size: 54px;
+    font-weight: 700
+}
+
+.message p {
+    margin-left: 15px
+}
+
+.message p>a {
+    font-weight: 700
+}
+
+@media (max-width: 767px) {
+    .headerDescription {
+        padding:0
+    }
+
+    .countryInput {
+        width: 30%!important;
+        display: inline-block;
+        margin-right: 2%
+    }
+
+    .mobileInput {
+        width: 68%!important;
+        display: inline-block
+    }
+
+    .DarkFormGroupWrapper,.landingPageInnerWidth,.LightFormGroupWrapper {
+        width: 100%
+    }
+
+    .landingPageWrapper {
+        padding: 20px;
+        width: calc(100vw - 40px);
+        height: calc(100vh - 40px);
+        height: auto
+    }
+
+    .signUpWrapper {
+        width: 90%
+    }
+
+    .btnIconWidth {
+        width: 50px
+    }
+
+    .commonBtn a button {
+        width: 100%;
+        font-size: 15px
+    }
+
+    .commonBtn a button span i {
+        padding: 0 10px
+    }
+
+    .socialLoginIcon {
+        width: 25%
+    }
+}
+
